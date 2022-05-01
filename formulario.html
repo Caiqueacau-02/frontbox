@@ -39,31 +39,27 @@
 	</header>
 	<hr>
 
-	<section class="calculadora-doses">
-		<h2 class="section__titulo">Calcule as Doses de Insulina</h2>
-		<div class="calculadora-doses-c">
-			<div class="calculadora-doses-c__texto">
-				<p>
-					Mussum Ipsum, cacilds vidis litro abertis. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu
-					levo!
-					Atirei o pau no gatis, per gatis num morreus. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Cevadis
-					im
-					ampola pa arma uma pindureta.
-				</p>
-				<br>
-				<p>
-					Copo furadis é disculpa de bebadis, arcu quam euismod magna. Praesent vel viverra nisi. Mauris aliquet nunc non
-					turpis
-					scelerisque, eget. Interagi no mé, cursus quis, vehicula ac nisi. Suco de cevadiss, é um leite divinis, qui tem
-					lupuliz,
-					matis, aguis e fermentis.
-				</p>
-			</div><!--.calculadora-doses-c__texto-->
-			<div class="calculadora-doses-c__img">
-				<img src="" alt="Calcule as Doses de Insulina">
-			</div><!--calculadora-doses-c__img-->
-		</div><!--.calculadora-doses-c-->
-	</section><!--.calculadora-doses-->
+	<section class="formulario">
+		<h2 class="section__titulo">Formulário</h2>
+		<div class="formulario-c">
+			<form class="formulario-c__form" action="https://formsubmit.co/caique.acau64@outlook.com" method="POST">
+				
+                    <label><b>Nome Completo</b></label>
+                    <input type="text" placeholder="Seu nome">
+        
+                    <label><b>E-mail</b></label>
+                    <input type="email" placeholder="email@seudominio.com" pattern="[0-9a-fA-F]{4,8}" required>
+
+                    <label><b>Telefone</b></label>
+                    <input type="tel" placeholder="(xx) x xxxx-xxxx" required>
+
+                    <label class="checkbox"> <input type="checkbox" checked="">Aceito receber dicas por e-mail</label>
+
+                    <input class="button" onclick="enviarFormulario()" type="button" value="Enviar" required >
+                
+			</form><!--.formulario-c__texto-->
+		</div><!--.formulario-c-->
+	</section><!--.formulario-->
 
 	<footer class="footer">
 		<p class="footer__copyright"> © Feito por INSUMED
@@ -73,5 +69,5 @@
 		</a>
 	</footer><!--footer-->
 </body>
-	<script src="script.js"></script>
+    <script src="script.js"></script>
 </html>
